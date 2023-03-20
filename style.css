@@ -1,0 +1,204 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+body{
+position: relative;
+background-color: #0d7587;
+font-family: 'Fira Sans', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container{
+display: grid;
+width: 863px;
+height: 638px;
+background-color:#FFFF;
+grid-template-columns:auto auto auto;
+border-radius:15px;
+}
+
+.box1{
+width: 288px;
+height: 498px;
+}
+
+.box1 img{
+width:233px; 
+height:340px;
+border-radius:20px;
+margin-left: 54px;
+margin-top: 44px;
+margin-bottom: 20px;
+}
+
+.detail{
+display: grid;    
+grid-template-columns: auto auto;
+width: 160px;
+height: 82px;
+line-height:10px;
+font-size: 10px;
+margin-left: 87px;
+margin-top: -11px;
+}
+  
+.detail .details{   
+text-align:left;       
+}
+          
+.detail .details1{
+text-align: right;
+padding-right: 10px;
+color: #717886;
+}
+  
+.box2{
+width:313px;
+height:384px;
+}
+
+.box2 p{
+width: 213px;
+height:141px;
+line-height: 14px;
+font-size:10px;
+margin-left:58px;
+margin-top:-1px;
+color: #717886;
+}
+
+.box2 h2{
+font-size: 12px;  
+margin-top: 45px;  
+margin-left:58px;
+}
+ 
+.box3{
+width: 261px;
+height: 496px;
+margin-left: 20px;
+}
+
+.box3 .boxx1 p{
+width: 204px;
+height:126px ;
+color: #717886;
+line-height: 14px;
+font-size:10px;
+margin-bottom: -20px;
+}
+
+.box3 .boxx1 h2{
+font-size: 12px;
+margin-top: 45px;
+}
+
+.box3 .boxx2 h2{     
+font-size: 12px;
+}
+
+.box3 .boxx2 p{
+width: 209px;
+height: 96px;
+line-height:14px;
+font-size: 10px;
+color: #717886;
+margin-bottom: -18px;
+}
+
+.box3 .boxx3 h2{
+font-size: 12px; 
+margin-top: 10px;
+}
+
+.box3 .boxx3{
+width: 202px;
+height: 192px;
+line-height:14px;
+font-size: 10px;
+}
+
+.box3 .boxx3 .text{
+margin-left:-30px;
+color: #717886;
+}
+
+.middlebox{
+position:absolute;
+width: 336px;
+height: 267px;
+background-color:rgba(243, 71, 14, 0.801);
+line-height:14px;
+font-size: 10px;
+left: 598px;
+top: 300px;
+
+border-radius: 20px;
+}  
+
+.middlebox img{
+position: absolute;
+width: 40px;
+height: 35px;
+left: 30px;
+margin-top: 34px;
+}
+
+.middlebox p{
+display: grid;
+justify-content: center;
+align-items: center;
+margin-top: 90px;
+color:#FFFF;
+}
+
+.chair{
+position: absolute; 
+right: 300px;  
+bottom: 100px;
+}
+
+.chair img{
+width: 171px;
+height: 147px;  
+}
+
+/* footer */
+.maindiv{
+position: absolute;
+display:grid;
+grid-template-columns: auto auto auto;
+font-size:9px;
+margin-left: 52px;
+gap:4em;
+}
+
+.Personality{       
+margin-left: 51px;  
+font-size: 9px;
+margin-top: -70px;
+}
+
+.item{
+display: grid;
+grid-template-columns: 96.5px 96.5px;
+grid-template-rows: auto;
+color: #717886;
+}
+
+.slide img{
+ width: 185px;  
+ margin-bottom: 7px; 
+}
+
+.subdiv2 {
+text-align:end;
+margin-right:10px;
+}
+
+
+
+
